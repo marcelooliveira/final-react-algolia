@@ -1,0 +1,26 @@
+.card-autocomplete {
+    padding: 0;
+  }
+  
+  .card-autocomplete .card-header {
+    padding: 0;
+  }
+  
+  .card-autocomplete > .card-header > img {
+    object-fit: cover;
+    width: 64px;
+    height: 64px;
+  }
+  
+  .autocomplete {
+    padding-inline-start: 0px;
+  }
+  
+  .autocomplete-item {
+    list-style: none;
+  }
+  
+  .autocomplete-item .card:hover {
+    background-color: lightgray;
+  }
+  

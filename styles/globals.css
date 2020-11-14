@@ -1,0 +1,87 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* React Algolia */
+
+.title {
+  color: white;
+  background-color: purple;
+}
+
+.img-estate {
+  height: 180px;
+  object-fit: cover;
+  background-color: black;
+}
+
+.description {
+  overflow: hidden;
+  position: relative; 
+}
+
+.loading {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 50px);
+}
+
+
+.ais-SearchBox {
+  margin: 1em 0;
+}
+
+.ais-Pagination {
+  margin-top: 1em;
+}
+
+.ais-Hits-item {
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+@media (min-width: 0px) { 
+  .ais-Hits-item {
+      min-width: calc(100% - 16px);
+  }
+}
+
+@media (min-width: 360px) { 
+  .ais-Hits-item {
+      min-width: calc(100% - 16px);
+  }
+}
+
+@media (min-width: 576px) { 
+  .ais-Hits-item {
+      min-width: calc(50% - 16px);
+  }
+}
+
+@media (min-width: 768px) { 
+  .ais-Hits-item {
+      min-width: calc(33% - 16px);
+  }
+}
+
+@media (min-width: 1024px) { 
+  .ais-Hits-item {
+      min-width: calc(25% - 16px);
+  }
+}

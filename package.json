@@ -1,0 +1,27 @@
+{
+  "name": "final-react-algolia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "algoliasearch": "^4.6.0",
+    "bootstrap": "^4.5.3",
+    "faunadb": "^3.0.1",
+    "next": "10.0.1",
+    "nstall": "^0.2.0",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "17.0.1",
+    "react-instantsearch": "^6.8.2",
+    "react-number-format": "^4.4.1",
+    "swr": "^0.3.8"
+  }
+}
