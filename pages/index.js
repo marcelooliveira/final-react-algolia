@@ -16,7 +16,7 @@ import {
 } from 'react-instantsearch-dom';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
-import { CustomAutocomplete } from './CustomAutocomplete';
+import { CustomAutocomplete } from '../components/CustomAutocomplete';
 
 const fetcher = (url) => fetch(url).then((r) => r.json());
 

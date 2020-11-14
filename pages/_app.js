@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import '../styles/globals.css'
-import './CustomAutocomplete.css';
+import '../components/CustomAutocomplete.css';
 import { client as faunadbClient, q } from '../config/db'
 import { data as staticData } from '../data/data.js'
 import algoliasearch from 'algoliasearch';
